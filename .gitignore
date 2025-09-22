@@ -1,0 +1,19 @@
+# Rust
+/target
+**/*.rs.bk
+
+# Ignore build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.a
+*.o
+
+# IDE/editor files
+*.swp
+*.swo
+.idea/
+.vscode/
+
