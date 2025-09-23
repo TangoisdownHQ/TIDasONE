@@ -1,19 +1,44 @@
-# Rust
+# ───── Rust build artifacts ─────
 /target
-**/*.rs.bk
+**/target/
+/debug/
+/release/
+/Cargo.lock         # optional: keep if you want reproducible builds
+*.rs.bk
 
-# Ignore build artifacts
+# ───── Binaries ─────
 *.exe
 *.dll
 *.so
 *.dylib
-*.out
+*.rlib
 *.a
 *.o
+*.out
+*.pdb
 
-# IDE/editor files
-*.swp
-*.swo
+# ───── IDE / Editor ─────
 .idea/
 .vscode/
+*.swp
+*.swo
+*.swn
+*.swm
+
+# ───── Logs / Dumps ─────
+*.log
+*.tmp
+*.bak
+*~
+
+# ───── OS files ─────
+.DS_Store
+Thumbs.db
+
+# ───── Env / Secrets ─────
+.env
+.env.*
+
+# ───── Git cleanup ─────
+.git-rewrite/
 
