@@ -1,3 +1,14 @@
+# TIDasONE
+
+[![Rust](https://img.shields.io/badge/Rust-stable-orange?logo=rust)](https://www.rust-lang.org/)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/TangoisdownHQ/TIDasONE/rust.yml?branch=main)](https://github.com/TangoisdownHQ/TIDasONE/actions)
+[![License](https://img.shields.io/github/license/TangoisdownHQ/TIDasONE)](./LICENSE)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+
+
+---
+
+
 # TIDasONE 🚀
 
 **TIDasONE** is a decentralized cybersecurity and logistics ecosystem designed for a post-quantum, 
