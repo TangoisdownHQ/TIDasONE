@@ -1,0 +1,48 @@
+[package]
+name = "api"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+tower = { version = "0.4", features = ["util"] }
+tokio = { version = "1", features = ["full"] }
+axum = "0.7"
+serde_json = "1"
+
+[dependencies]
+axum = "0.7"
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+dotenvy = "0.15"
+sqlx = { version = "0.7", features = ["postgres", "runtime-tokio-rustls", "macros", "uuid"] }
+uuid = { version = "1", features = ["v4"] }
+db = { path = "../../packages/db" }
+chrono = { version = "0.4", features = ["serde"] }
+jsonwebtoken = "9"
+axum-extra = { version = "0.9", features = ["typed-header"] }
+reqwest = { version = "0.12", features = ["json"] }
+
+# --- Post-Quantum Cryptography (PQC) ---
+pqcrypto-mlkem = "0.1"        # ML-KEM (Kyber) KEM
+pqcrypto-mldsa = "0.1"        # ML-DSA (Dilithium) signatures
+pqcrypto-traits = "0.3"
+
+# --- Symmetric AEAD + KDF ---
+chacha20poly1305 = "0.10"     # ChaCha20-Poly1305 AEAD
+aes-gcm = "0.10"              # AES-256-GCM AEAD
+hkdf = "0.12"                 # HKDF-SHA256
+sha2 = "0.10"
+
+# --- Helpers ---
+rand = "0.8"
+base64 = "0.22"
+anyhow = "1"
+oauth2 = "4"
+
+[[bin]]
+name = "gen_jwt"
+path = "src/bin/gen_jwt.rs"
+
