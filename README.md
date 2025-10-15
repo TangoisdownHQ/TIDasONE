@@ -4,7 +4,8 @@
 [![Build Status](https://img.shields.io/github/actions/workflow/status/TangoisdownHQ/TIDasONE/rust.yml?branch=main)](https://github.com/TangoisdownHQ/TIDasONE/actions)
 [![License](https://img.shields.io/github/license/TangoisdownHQ/TIDasONE)](./LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](./CONTRIBUTING.md)
-
+![CyberSpaceOps](https://img.shields.io/badge/Secured_by-Tangoisdown_Systems-1b5e20?logo=shield&logoColor=white)
+![TangoisdownHQ](https://img.shields.io/badge/TangoisdownHQ-Cyber_Intelligence-002b36?logo=linux&logoColor=white)
 
 ---
 
